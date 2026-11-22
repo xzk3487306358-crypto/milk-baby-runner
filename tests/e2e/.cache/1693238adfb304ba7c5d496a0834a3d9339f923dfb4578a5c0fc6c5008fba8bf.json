@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-21T16:27:06.877Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap button \"暂停\"",
+        "target": {
+          "role": "button",
+          "name": "暂停"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "play-caught-and-submit.e2e.ts::play-caught-and-submit",
+      "targetId": "web",
+      "instructionDigest": "7ba68928e5005871fbb87b1f2cbfe2b2ada5e19a5a25d510cedefd69612c5e16",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "anthropic.messages",
+      "model": "claude-opus-5-5"
+    },
+    "summary": "I pressed 暂停 (Pause), and the 暂停中 (Paused) dialog opened. It shows the 继续 (Resume), 重新开始 (Restart) and 返回主菜单 (Back to main menu) buttons, and the score stopped at 346.",
+    "startPath": "/play",
+    "endPath": "/play",
+    "endAnchors": [
+      {
+        "text": "172 米 · 白天"
+      },
+      {
+        "text": "连击 8"
+      },
+      {
+        "text": "13 米"
+      },
+      {
+        "role": "heading",
+        "name": "暂停中"
+      },
+      {
+        "text": "袋鼠骑手也停下来喘口气了"
+      },
+      {
+        "role": "button",
+        "name": "继续"
+      },
+      {
+        "role": "button",
+        "name": "重新开始"
+      },
+      {
+        "role": "button",
+        "name": "返回主菜单"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "text": "133 米 · 白天"
+      },
+      {
+        "text": "连击 6"
+      },
+      {
+        "text": "6 米"
+      }
+    ],
+    "endWaitMs": 12416,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-21T16:27:43.096Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap link \"返回主菜单\" (1 of 2)",
+        "target": {
+          "role": "link",
+          "name": "返回主菜单",
+          "position": {
+            "index": 0,
+            "of": 2
+          }
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "shop-locked-skins-persist.e2e.ts::shop-locked-skins-persist",
+      "targetId": "web",
+      "instructionDigest": "1f4e2d26ce3a0b7a0dcc95e2c2677402c79d8dc169865633d7b8a3e57664a251",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "anthropic.messages",
+      "model": "claude-opus-5-5"
+    },
+    "summary": "I pressed 返回主菜单 (Back to main menu) and the app went back to the main menu at /. It shows 开始游戏 (Start Game), the 皮肤商店 (Skin Shop) link, 0 coins, and 奶娃 with the 默认奶娃 skin equipped.",
+    "startPath": "/shop",
+    "endPath": "/",
+    "endAnchors": [
+      {
+        "role": "heading",
+        "name": "奶娃大逃亡"
+      },
+      {
+        "role": "image",
+        "name": "奶娃大逃亡 游戏标志"
+      },
+      {
+        "text": "霓虹夜城 · 三车道狂奔 · 别被袋鼠追上！"
+      },
+      {
+        "text": "历史最高"
+      },
+      {
+        "text": "我的金币"
+      },
+      {
+        "text": "当前出战"
+      },
+      {
+        "text": "跳得更高更远"
+      },
+      {
+        "role": "image",
+        "name": "奶娃·默认奶娃"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "link",
+        "name": "返回主菜单"
+      },
+      {
+        "role": "image",
+        "name": "当前装备：奶娃 · 默认奶娃"
+      },
+      {
+        "role": "heading",
+        "name": "皮肤商店"
+      },
+      {
+        "text": "当前装备 奶娃 · 默认奶娃"
+      },
+      {
+        "text": "角色"
+      },
+      {
+        "text": "奶娃免费 · 牛来翻滚更快"
+      },
+      {
+        "text": "已装备"
+      },
+      {
+        "role": "image",
+        "name": "奶娃 预览"
+      }
+    ],
+    "endWaitMs": 12757,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

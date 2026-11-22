@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "flows": {
+    "leaderboard-samples": {
+      "flowId": "leaderboard-samples",
+      "specDigest": "ca2cc5186358bf043da55a24904475cc1daf825bd757e9fc35b3ac0c21dc1727",
+      "status": "recorded",
+      "recordedAt": "2026-11-21T16:27:43.186Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "04ec03e9fe624cafa4032ee131988747b42f42c4bdf9afea1951cf28c223576d.json",
+        "a3b366102f3556ef45f2233bec387909712437a4d1d701bf3e1cfdb1d794d59f.json",
+        "91e94be35398c61ac08ddcd6a6123d3b3d488206165228b7ca355b6f51215e49.json"
+      ],
+      "ranAfter": [
+        "menu-and-story",
+        "play-caught-and-submit"
+      ],
+      "ranWith": [
+        "menu-and-story",
+        "play-caught-and-submit"
+      ],
+      "readOnly": true
+    },
+    "menu-and-story": {
+      "flowId": "menu-and-story",
+      "specDigest": "2b950152d5be1d98b73d371719a292f0b29064a62aeaa0590a40622b654a8b17",
+      "status": "recorded",
+      "recordedAt": "2026-11-21T16:27:43.176Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "84a844a43bd452fa06e45be49aa9c666ee9f119b8c20b21de88cd1a76b2d48e4.json",
+        "ca682037f809a73de7b7e772d1ff507db7bd441b86648cc17bccf1527dfce132.json",
+        "19c15455f8891a4691d209d4640c2ea01cfc9ca81221c1ed2c82775dd91f0e8b.json"
+      ],
+      "ranAfter": [],
+      "ranWith": [],
+      "readOnly": true
+    },
+    "play-caught-and-submit": {
+      "flowId": "play-caught-and-submit",
+      "specDigest": "45fe27bf4023ba89d1395add5d9e1e496659516e029a077266a546fe5762bfb1",
+      "status": "recorded",
+      "recordedAt": "2026-11-21T16:27:43.185Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "f5dc360eb7128bb4a0ce113213ce2e7e22cfcac1ef591207c59a100ffdf06b5c.json",
+        "6ba806fb1008c431191bff71aa3defdf1776af30d36232f32d99e0cfc97ab6b3.json",
+        "1693238adfb304ba7c5d496a0834a3d9339f923dfb4578a5c0fc6c5008fba8bf.json",
+        "3fdc91c6dda03ca07cae246babee42caa4ef00193ec707fa9ecba09bf6a0ac3f.json",
+        "426614726f9da4948f991bde7bcd5abccb7d69bf68c1f61eedae38975732ba39.json",
+        "4e5c89a891a8339d8304d7c1e5b026c09c38b0fe254a167c2153e109f4b6e240.json"
+      ],
+      "noChangeSteps": [
+        4
+      ],
+      "ranAfter": [
+        "menu-and-story"
+      ],
+      "ranWith": [
+        "menu-and-story"
+      ]
+    },
+    "shop-locked-skins-persist": {
+      "flowId": "shop-locked-skins-persist",
+      "specDigest": "e405166ebe7dcb034cf34dd5fb9d1aad2d3ad74e2c2eeea73f5eeb16664c99d1",
+      "status": "recorded",
+      "recordedAt": "2026-11-21T16:27:43.186Z",
+      "recordedBy": "claude-opus-5-5",
+      "entries": [
+        "50609a5f7e15bdf033d2b48fdcada3384600722cfcffd10fbe2ae66e84c212b6.json",
+        "a68318f85a7f9194b0dbe0b0d7f3a3220c90cd64397969fd89b6b008a3732bd1.json",
+        "9c0719953553a92584f29a1f0f66f553f5e0588fa04c20ceda6321a1fd4ab438.json"
+      ],
+      "ranAfter": [
+        "leaderboard-samples",
+        "menu-and-story",
+        "play-caught-and-submit"
+      ],
+      "ranWith": [
+        "leaderboard-samples",
+        "menu-and-story",
+        "play-caught-and-submit"
+      ],
+      "readOnly": true
+    }
+  }
+}

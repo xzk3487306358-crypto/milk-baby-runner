@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-21T16:27:06.881Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap link \"查看排行榜\"",
+        "target": {
+          "role": "link",
+          "name": "查看排行榜"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "play-caught-and-submit.e2e.ts::play-caught-and-submit",
+      "targetId": "web",
+      "instructionDigest": "f3b13e4c95e925722df2b9a649034bee34b178e4fd49a0af847953c7e36cf834",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "anthropic.messages",
+      "model": "claude-opus-5-5"
+    },
+    "summary": "I pressed 查看排行榜 (View leaderboard), and the app opened /leaderboard, titled 全球排行榜 (Global leaderboard). Row 9 shows 测试奶家人, marked 你 (you), with 607 points and 283 米.",
+    "startPath": "/results",
+    "endPath": "/leaderboard",
+    "endAnchors": [
+      {
+        "role": "heading",
+        "name": "全球排行榜"
+      },
+      {
+        "text": "前 50 名"
+      },
+      {
+        "text": "全球排行榜前 50 名"
+      },
+      {
+        "role": "columnheader",
+        "name": "排名"
+      },
+      {
+        "role": "columnheader",
+        "name": "玩家"
+      },
+      {
+        "role": "columnheader",
+        "name": "角色 / 皮肤"
+      },
+      {
+        "role": "columnheader",
+        "name": "分数"
+      },
+      {
+        "role": "columnheader",
+        "name": "距离"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "image",
+        "name": "默认奶娃，被抓住了一脸懵"
+      },
+      {
+        "role": "image",
+        "name": "美团黄袋鼠骑手，追上了奶娃"
+      },
+      {
+        "text": "新纪录！"
+      },
+      {
+        "role": "heading",
+        "name": "被袋鼠抓住了！"
+      },
+      {
+        "text": "「胆子真是肥嘟嘟的啊！」外卖没追回来，下一局一定跑得更远！"
+      },
+      {
+        "text": "分数"
+      },
+      {
+        "text": "距离"
+      },
+      {
+        "text": "283米"
+      }
+    ],
+    "endWaitMs": 13046,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

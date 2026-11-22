@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-21T16:27:43.095Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap link \"皮肤商店 解锁新造型\"",
+        "target": {
+          "role": "link",
+          "name": "皮肤商店 解锁新造型"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "shop-locked-skins-persist.e2e.ts::shop-locked-skins-persist",
+      "targetId": "web",
+      "instructionDigest": "b08b2bfee6b417e4e08b381d9a5b880dc3c80d84f0c82cd31650fca3ce279a69",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "anthropic.messages",
+      "model": "claude-opus-5-5"
+    },
+    "summary": "I opened 皮肤商店 (Skin Shop) and the app went to /shop, where the 皮肤商店 heading is showing. You have 0 coins and 奶娃 · 默认奶娃 is equipped. Every paid skin is locked, with a disabled \"还差 N 金币\" (N coins short) button. A 返回主菜单 (Back to main menu) link is on the page.",
+    "startPath": "/",
+    "endPath": "/shop",
+    "endAnchors": [
+      {
+        "role": "link",
+        "name": "返回主菜单"
+      },
+      {
+        "role": "image",
+        "name": "当前装备：奶娃 · 默认奶娃"
+      },
+      {
+        "role": "heading",
+        "name": "皮肤商店"
+      },
+      {
+        "text": "当前装备 奶娃 · 默认奶娃"
+      },
+      {
+        "text": "角色"
+      },
+      {
+        "text": "奶娃免费 · 牛来翻滚更快"
+      },
+      {
+        "text": "已装备"
+      },
+      {
+        "role": "image",
+        "name": "奶娃 预览"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "heading",
+        "name": "奶娃大逃亡"
+      },
+      {
+        "role": "image",
+        "name": "奶娃大逃亡 游戏标志"
+      },
+      {
+        "text": "霓虹夜城 · 三车道狂奔 · 别被袋鼠追上！"
+      },
+      {
+        "text": "历史最高"
+      },
+      {
+        "text": "我的金币"
+      },
+      {
+        "text": "当前出战"
+      },
+      {
+        "text": "跳得更高更远"
+      },
+      {
+        "role": "image",
+        "name": "奶娃·默认奶娃"
+      }
+    ],
+    "endWaitMs": 13216,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

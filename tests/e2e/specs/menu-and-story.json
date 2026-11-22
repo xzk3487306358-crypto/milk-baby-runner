@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "menu-and-story",
+    "kind": "interactive",
+    "goal": "Skip the intro, see the main menu, read the background story and return to the menu",
+    "requirementIndexes": [
+      12,
+      13
+    ],
+    "acceptanceCriteriaIndexes": [
+      0,
+      7,
+      8
+    ],
+    "steps": [
+      "Press 跳过",
+      "Open 背景故事",
+      "Press 返回主菜单"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "奶娃大逃亡"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "开始游戏"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "皮肤商店"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "排行榜"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "背景故事"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "胆子真是肥嘟嘟的啊"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "小绳头"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "开始逃亡"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "开始游戏"
+      }
+    ]
+  }
+}

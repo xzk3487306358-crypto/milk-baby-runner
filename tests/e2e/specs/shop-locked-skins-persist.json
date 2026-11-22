@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "shop-locked-skins-persist",
+    "kind": "interactive",
+    "goal": "Open the shop with no coins, see locked skins with their shortfall, reload and keep the equipped state",
+    "requirementIndexes": [
+      6,
+      7
+    ],
+    "acceptanceCriteriaIndexes": [
+      5,
+      6
+    ],
+    "steps": [
+      "Press 跳过",
+      "Open 皮肤商店",
+      "Reload the page",
+      "Press 返回主菜单"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "开始游戏"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "奶娃皮肤"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "已装备"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "还差 300 金币"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "已装备"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "还差 300 金币"
+      },
+      {
+        "afterStep": 3,
+        "expectText": "开始游戏"
+      }
+    ]
+  }
+}

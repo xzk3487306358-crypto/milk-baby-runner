@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "play-caught-and-submit",
+    "kind": "interactive",
+    "goal": "Start a run, pause and resume, get caught by the kangaroo, submit the score with a nickname and find it highlighted on the leaderboard",
+    "requirementIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11
+    ],
+    "acceptanceCriteriaIndexes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "steps": [
+      "Press 跳过",
+      "Press 开始游戏",
+      "Press 暂停",
+      "Press 继续",
+      "Let the kangaroo catch the runner by staying still in the starting lane without pressing any key until the results screen appears",
+      "Submit the score with nickname 测试奶家人 using 提交到排行榜",
+      "Press 查看排行榜"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "开始游戏"
+      },
+      {
+        "afterStep": 1,
+        "expectPath": "/play"
+      },
+      {
+        "afterStep": 1,
+        "expectRole": {
+          "role": "button",
+          "name": "暂停"
+        }
+      },
+      {
+        "afterStep": 2,
+        "expectRole": {
+          "role": "button",
+          "name": "继续"
+        }
+      },
+      {
+        "afterStep": 2,
+        "expectText": "重新开始"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "返回主菜单"
+      },
+      {
+        "afterStep": 3,
+        "expectRole": {
+          "role": "button",
+          "name": "暂停"
+        }
+      },
+      {
+        "afterStep": 4,
+        "expectText": "被袋鼠抓住了"
+      },
+      {
+        "afterStep": 4,
+        "expectText": "最高连击"
+      },
+      {
+        "afterStep": 4,
+        "expectText": "提交到排行榜"
+      },
+      {
+        "afterStep": 4,
+        "expectText": "再来一局"
+      },
+      {
+        "afterStep": 5,
+        "expectText": "提交成功"
+      },
+      {
+        "afterStep": 5,
+        "expectText": "全球第"
+      },
+      {
+        "afterStep": 6,
+        "expectText": "全球排行榜"
+      },
+      {
+        "afterStep": 6,
+        "expectText": "测试奶家人"
+      },
+      {
+        "afterStep": 6,
+        "expectCount": {
+          "text": "你",
+          "count": 1
+        }
+      }
+    ]
+  }
+}

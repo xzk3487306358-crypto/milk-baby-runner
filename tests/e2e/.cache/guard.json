@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "flows": {
+    "leaderboard-samples": {
+      "plan": [
+        "23184f6b31f31351",
+        "d06358d406f15f03"
+      ],
+      "last": "passed"
+    },
+    "menu-and-story": {
+      "plan": [
+        "56f1890797692c06",
+        "6e7b7aa87f5028d2",
+        "99adb2f4e01f939d",
+        "bca2b04eac264e8b",
+        "d3c42dbae7f7e9ba"
+      ],
+      "last": "passed"
+    },
+    "play-caught-and-submit": {
+      "plan": [
+        "007cd7675e2adbdb",
+        "0c9032be97dd4e87",
+        "23184f6b31f31351",
+        "379daab8a5c610fe",
+        "40ecaaea2ce96505",
+        "494e1da745e1d330",
+        "4fcd54392268d561",
+        "9412730eef5a3fb0",
+        "acd3addd757d1178",
+        "b16b0e603bb9ca4c",
+        "bb9730acbedee03a",
+        "d06358d406f15f03",
+        "d89c2d08437810df",
+        "f69b54b5faead98b"
+      ],
+      "last": "passed"
+    },
+    "shop-locked-skins-persist": {
+      "plan": [
+        "16f7b6c160aa6c70",
+        "64a8f1f3102445ff",
+        "6fff02862e3f7185",
+        "c73650efc1758396"
+      ],
+      "last": "passed"
+    }
+  },
+  "order": [
+    "menu-and-story",
+    "play-caught-and-submit",
+    "leaderboard-samples",
+    "shop-locked-skins-persist"
+  ]
+}

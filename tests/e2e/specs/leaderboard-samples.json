@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "leaderboard-samples",
+    "kind": "interactive",
+    "goal": "Open the global leaderboard from the menu and see the preloaded sample entries",
+    "requirementIndexes": [
+      10
+    ],
+    "acceptanceCriteriaIndexes": [
+      4
+    ],
+    "steps": [
+      "Press 跳过",
+      "Open 排行榜",
+      "Press 返回主菜单"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "开始游戏"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "全球排行榜"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "前 50 名"
+      },
+      {
+        "afterStep": 1,
+        "expectNoText": "还没有人上榜"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "开始游戏"
+      }
+    ]
+  }
+}

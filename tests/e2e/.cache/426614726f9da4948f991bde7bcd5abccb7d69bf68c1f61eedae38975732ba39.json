@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-21T16:27:06.880Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "type",
+        "summary": "type \"测试奶家人\" into textbox \"你的昵称（2–12 个字）\"",
+        "target": {
+          "role": "textbox",
+          "name": "你的昵称（2–12 个字）",
+          "placeholder": "比如：奶家人一号"
+        },
+        "value": "测试奶家人"
+      },
+      {
+        "name": "tap",
+        "summary": "tap button \"提交到排行榜\"",
+        "target": {
+          "role": "button",
+          "name": "提交到排行榜"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "play-caught-and-submit.e2e.ts::play-caught-and-submit",
+      "targetId": "web",
+      "instructionDigest": "b644fb2c50c324b5b892d3dac9b1be8a950b38862840c4f7447551029509d030",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "anthropic.messages",
+      "model": "claude-opus-5-5"
+    },
+    "summary": "I entered the nickname 测试奶家人 and pressed 提交到排行榜, and the score was submitted: the screen shows 提交成功！ (Submitted!) and 全球第 9 名 (9th place worldwide). The button now reads 已提交 (Submitted), and the 查看排行榜 (View leaderboard) link is showing for the next step.",
+    "startPath": "/results",
+    "endPath": "/results",
+    "endAnchors": [
+      {
+        "role": "textbox",
+        "name": "你的昵称（2–12 个字）",
+        "placeholder": "比如：奶家人一号",
+        "value": "测试奶家人"
+      },
+      {
+        "role": "button",
+        "name": "已提交"
+      },
+      {
+        "text": "提交成功！"
+      },
+      {
+        "text": "全球第 9 名"
+      },
+      {
+        "role": "link",
+        "name": "查看排行榜"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "textbox",
+        "name": "你的昵称（2–12 个字）",
+        "placeholder": "比如：奶家人一号"
+      },
+      {
+        "role": "button",
+        "name": "提交到排行榜"
+      }
+    ],
+    "endWaitMs": 14380,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

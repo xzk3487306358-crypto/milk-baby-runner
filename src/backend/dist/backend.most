@@ -1,0 +1,64 @@
+// Version: 4.0.0
+type AccessControlState__204832294 =
+  {
+    var adminAssigned : Bool;
+    userRoles : Map__175655829<Principal, UserRole__256279894>
+  };
+type Data__1061330525<K, V> =
+  {var count : Nat__565224867; kvs : [var ?(K, V)]};
+type Internal__1060388275<K, V> =
+  {children : [var ?Node__1010487028<K, V>]; data : Data__1061330525<K, V>};
+type LeaderboardEntry__313810263 =
+  {
+    characterId : Text;
+    distance : Nat;
+    id : Nat;
+    nickname : Text;
+    score : Nat;
+    skinId : Text;
+    submittedAt : Int
+  };
+type LeaderboardEntry__432793755 =
+  {
+    characterId : Text;
+    distance : Nat;
+    id : Nat;
+    nickname : Text;
+    score : Nat;
+    skinId : Text;
+    submittedAt : Timestamp__301639476
+  };
+type Leaf__8515789<K, V> = {data : Data__1061330525<K, V>};
+type Map__175655829<K, V> = Map__975833162<K, V>;
+type Map__925935234<K, V> =
+  {var root : Node__1010487028<K, V>; var size : Nat__565224867};
+type Map__975833162<K, V> = Map__925935234<K, V>;
+type Nat__565224867 = Nat__920180692;
+type Nat__920180692 = Nat;
+type NewActor__769816496 =
+  {
+    accessControlState : AccessControlState__204832294;
+    leaderboard : Map__175655829<Nat, LeaderboardEntry__313810263>;
+    leaderboardState : {var nextId : Nat}
+  };
+type Node__1010487028<K, V> =
+  {#internal : Internal__1060388275<K, V>; #leaf : Leaf__8515789<K, V>};
+type OldActor__512397517 = {};
+type Timestamp__301639476 = Int;
+type UserRole__256279894 = {#admin; #guest; #user};
+{
+  "00000000_000000" : OldActor__512397517 -> NewActor__769816496
+}
+actor  {
+  stable accessControlState :
+    {
+      var adminAssigned : Bool;
+      userRoles : Map__175655829<Principal, UserRole__256279894>
+    };
+  stable leaderboard :
+    {
+      var root : Node__1010487028<Nat, LeaderboardEntry__432793755>;
+      var size : Nat__565224867
+    };
+  stable leaderboardState : {var nextId : Nat}
+};
